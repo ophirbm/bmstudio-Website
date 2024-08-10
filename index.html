@@ -1,0 +1,542 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BM Studio</title>
+    <!--CSS Stylesheets-->
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+
+    <link rel="icon" href="Images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Maven+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/styles_new.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/096d9f183f.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body
+    onload='setTimeout(function () { /*window.scrollTo(0, 0);*/ }, 1);//document.body.removeChild(document.getElementById("loadingDiv"));'>
+    <div style="width:100vw;height:100vh;background:black; z-index:100; position: fixed;" id="loadingDiv">
+        <svg version="1.1" id="logoPolygon" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10%" viewBox="0 0 2370 2660"
+            enable-background="new 0 0 2370 2660" xml:space="preserve">
+            <path class="path" fill="none" opacity="1.000000" stroke-width="100px" d="
+M2372.000000,1790.000000
+	C2372.000000,1829.375122 2372.000000,1868.750244 2371.284180,1909.465454
+	C2370.477295,1915.235229 2370.386230,1919.664917 2370.182617,1925.000732
+	C2369.884277,1931.570312 2369.987061,1937.260132 2369.466797,1942.892578
+	C2365.818604,1982.373901 2360.513184,2021.611450 2351.984863,2060.373535
+	C2337.589111,2125.803711 2315.318359,2188.239502 2281.292725,2246.181885
+	C2229.291504,2334.734619 2156.164551,2401.085938 2066.554688,2450.031250
+	C1991.761475,2490.883545 1911.691162,2517.197754 1828.909668,2535.943115
+	C1752.761475,2553.186523 1675.541260,2563.243896 1597.812256,2569.588135
+	C1535.023193,2574.712891 1472.075073,2577.243408 1409.103149,2577.275391
+	C946.147156,2577.511963 483.190948,2577.403076 20.234770,2577.403076
+	C16.991661,2577.403076 13.748552,2577.403076 10.379272,2577.403076
+	C10.379272,2419.654541 10.379272,2262.917236 10.379272,2105.681641
+	C79.719902,2105.681641 148.350113,2105.681641 216.980301,2105.675049
+	C217.309784,2105.674805 217.662643,2105.637695 217.962128,2105.514404
+	C218.249954,2105.395996 218.494385,2105.156494 218.735840,2104.945068
+	C218.986053,2104.725830 219.209961,2104.476562 219.377930,2104.308350
+	C219.377930,1573.393311 219.377930,1042.544922 219.377930,510.725830
+	C149.472931,510.725830 80.005981,510.725830 10.271946,510.725830
+	C10.271946,354.305756 10.271946,198.857162 10.271946,43.002342
+	C15.187037,43.002342 19.499834,43.002338 23.812632,43.002338
+	C454.438538,43.002338 885.064392,42.995018 1315.690308,43.019413
+	C1343.348022,43.020977 1371.007446,43.125771 1398.663330,43.427284
+	C1478.707397,44.299946 1558.386841,49.907070 1637.621338,61.622868
+	C1696.644409,70.350151 1754.873535,82.558823 1811.978638,99.932045
+	C1884.651733,122.041618 1953.802124,151.859467 2017.023071,194.436417
+	C2094.062744,246.319809 2154.599121,312.792328 2194.930908,396.942657
+	C2231.082764,472.372009 2247.232666,552.536621 2249.663574,635.593262
+	C2251.801514,708.627869 2248.326660,781.472595 2238.198242,853.925598
+	C2230.619629,908.134583 2218.720215,961.292053 2199.853760,1012.751770
+	C2172.964600,1086.093750 2133.036377,1151.069824 2075.804688,1204.824829
+	C2030.368530,1247.500610 1978.091553,1279.536377 1921.002563,1304.052124
+	C1917.172241,1305.697021 1913.384644,1307.441162 1907.800415,1309.931274
+	C1912.880615,1311.602051 1916.202637,1312.734253 1919.548950,1313.788940
+	C1949.365356,1323.185303 1979.410522,1331.916504 2008.957642,1342.093506
+	C2066.395020,1361.876709 2121.687500,1386.399780 2172.695557,1419.821411
+	C2225.533203,1454.441895 2270.166748,1497.290161 2303.252441,1551.435059
+	C2344.966797,1619.700928 2364.652588,1694.696411 2370.014648,1774.738770
+	C2370.545166,1780.388184 2371.272461,1785.194092 2372.000000,1790.000000
+z" />
+        </svg>
+    </div>
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark" style="z-index: 2; padding: 0;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Images/BM _STUDIO_Logo.png" width="35" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav hebrew">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">בית</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">עלינו</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">מוצרים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">גלריה</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">המלצות</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bundles">חבילות</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">צרו קשר</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="top-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <h2>Welcome To</h2>
+        <div class="logo-parent">
+            <div class="glowing-top"></div>
+            <div class="glowing-btm"></div>
+            <img class="logo" src="Images/BM _STUDIO_Logo.png" alt="logo" width="25%">
+        </div>
+        <h1>BM Studio</h1>
+        <h3>Photoshop・Edits・Design</h3>
+    </section>
+    <!-- <hr> -->
+    <section class="middle-container">
+        <div class="profile hebrew" id="about">
+            <!-- <img src="" alt=""> -->
+            <h2>קצת עלינו</h2>
+            <br />
+            <p>אהלן! אנחנו אברי ואופיר,</p>
+            <p>אחים תאומים שעוסקים בעיצוב גרפי, מיתוג ועריכת וידאו ותמונות.</p>
+            <p>מגיל צעיר עסקנו בתחום כתחביב, שבמהלך השנים רק התפתח ונהיה חלק בלתי נפרד מהחיים שלנו.</p>
+            <p>לאחר השחרור מהצבא החלטנו לקחת את התחביב צעד אחד קדימה ולפתוח עסק ביחד.</p>
+            <p>אנחנו מאמינים בעבודה משותפת ותקשורת תמידית עם הלקוח לכל אורך הדרך.</p>
+            <p>בתחילת מלחמת ״חרבות ברזל״ הסבנו את העסק לעסק התנדבותי בלבד למען פרוייקטים שקמו לאור המצב;</p>
+            <p>להעלאת מודעות, להנצחת חללים, ולעסקים שנפגעו בעקבות המלחמה.</p>
+            <p>אנחנו עובדים עם מגוון רחב מאוד של לקוחות:</p>
+            <p>זמרים ומוזיקאים, שחקנים, צלמים, עסקים קטנים, בתי ספר, ואפילו עם מספר יחידות בצבא.</p>
+            <p>מוזמנים <a style="text-decoration: underline; margin: auto;" href="#contact">ליצור איתנו קשר</a> במייל או
+                באינסטגרם לכל פרויקט שאתם צריכים!</p>
+            <!-- <img class="us" src="Images/Us.png"/> -->
+            <!-- <div class="company-header-avatar" style="background-image: url(Images/Us.png)"></div> -->
+        </div>
+        <!-- <hr> -->
+        <div class="products hebrew" id="products">
+            <h2>המוצרים שלנו</h2>
+            <div class="product-row">
+                <i class="fa-solid fa-paintbrush fa-xl" style="color: #ffffff;" aria-hidden="true"></i>
+                <!-- <img class="productImg" src="Images/branding-logo-design.png" alt=""> -->
+                <h3>לוגו</h3>
+                <p>לוגו הוא הפנים של העסק שלכם.</p>
+                <p>הוא יהיה על כל מוצר, כל מודעה, על כל דבר שהלקוח יראה ויקושר אל העסק שלכם.</p>
+                <p>למעשה, זה הדבר הראשון שהלקוח יראה - הלוגו הוא בעצם הרושם הראשוני שלכם,</p>
+                <p>וכולם יודעים שאין שני לרושם ראשוני :)</p>
+                <p>לכן חשוב שהלוגו שלכם ייצג בדיוק את מי שאתם וימשוך לקוחות פוטנציאליים.</p>
+                <p>ואנחנו כאן לעצב לכם את הלוגו המושלם בשבילכם.</p>
+            </div>
+            <div class="product-row">
+                <i class="fa-solid fa-camera fa-xl" style="color: #ffffff;"></i>
+                <!-- <img class="productImg" src="Images/camera.png" alt=""> -->
+                <h3>עריכת תמונות & פוטושופ</h3>
+                <p>בדיוק צילמתם את התמונה המושלמת, אבל דבר אחד קטן הורס את כל התמונה. מעצבן, לא?</p>
+                <p>אל תדאגו, אנחנו נתקן את התמונה בשבילכם!</p>
+                <p>בנוסף, נשמח לערוך את התמונה שלכם כך שתהיה משופרת - יפה ואסתטית יותר.</p>
+            </div>
+            <div class="product-row">
+                <i class="fa-regular fa-film fa-xl" style="color: #ffffff;"></i>
+                <!-- <img class="productImg" src="Images/camera-roll.png" alt=""> -->
+                <h3>עריכת וידאו</h3>
+                <p>צריכים סרטון שנערך במיוחד עבור העסק שלכם, החתונה של האחות או יום ההולדת של חבר? </p>
+                <p>או קליפ נחמד ומקצועי לכל אירוע? או אפילו רק מצגת פשוטה של תמונות וסרטונים לאירוע מסויים?</p>
+                <p>אנחנו ניצור את הסרטון הזה בשבילכם! מוסיקה, אפקטים... הכל עלינו!</p>
+                <p>*כרגע אין ביכולתנו לצלם את הסרטון שלכם, אבל נשמח לערוך לכם את הסרטונים.</p>
+            </div>
+            <div class="product-row">
+                <i class="fa-solid fa-music fa-xl" style="color: #ffffff;"></i>
+                <!-- <img class="productImg" src="Images/branding-logo-design.png" alt=""> -->
+                <h3>עטיפת אלבום</h3>
+                <p>אתם עושים מוזיקה? בדיוק סיימתם את השיר/האלבום שלכם ואתם תקועי בשלב של להתחיל לחשוב על רעיון לעטיפה?
+                </p>
+                <p>עטיפת הסינגל או האלבום משחקת תפקיד קריטי ביותר כשמדובר במשיכת הקהל לשמוע את השיר שלכם.</p>
+                <p>אנחנו נעצב לכם את העטיפה המדוייקת ביותר לשיר או לאלבום שלכם, עם אופציה לעטיפה מונפשת לפלטפורמות
+                    התומכות בפיצ׳ר זה.</p>
+            </div>
+            <div class="product-row">
+                <i class="fa-regular fa-newspaper fa-xl" style="color: #ffffff;" aria-hidden="true"></i>
+                <!-- <img class="productImg" src="Images/branding-logo-design.png" alt=""> -->
+                <h3>פרסומות & פוסטרים</h3>
+                <p>צריכים פרסומת לעסק? פוסטר לסרט? לקליפ?</p>
+                <p>אנחנו כאן כדי לעצב לכם את המודעה / פרסומת / פוסטר המושלמים בשביל קהל היעד שלכם!</p>
+            </div>
+            <div class="product-row">
+                <i class="fa-solid fa-person-walking fa-2xl" style="color: #ffffff;"></i>
+                <!-- <img class="productImg" src="Images/video roll animation.gif" alt=""> -->
+                <h3>אנימציות</h3>
+                <p>קליפ אנימצייה הוא אחת הדרכים המעניינות והכיפיות ביותר לתת ביטוי לסיפור, לשיר, להרצאה, תוך משיכת תשומת
+                    הלב
+                    של קהל היעד שלכם.</p>
+                <p>זו דרך מצויינת להפיח חיים בדמיון ובחלומות שלכם על ידי יצירת אנימציות לא ראליסטיות</p>
+                <p>וזו דרך להעביר ולהביא לידי ביטוי את הרעיונות שלכם בצורה יותר יעילה ופשוטה להבנת קהל היעד.</p>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="gallery" id="gallery">
+            <h2 class="hebrew">חלק מהעבודות שלנו</h2>
+            <div id="instagramContainer">
+            </div>
+            <div id="youtubeContainer">
+                <iframe class="youtubeVideo"
+                    src="https://www.youtube.com/embed/dKTIxhjpfP4?autoplay=1&mute=1&playlist=dKTIxhjpfP4&loop=1"
+                    title="נעה ניר - מאז שהרגשתי | Noa Nir - Meaz Shehergashti" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="youtubeVideo"
+                    src="https://www.youtube.com/embed/ajFa4UNsTm0?autoplay=1&mute=1&playlist=ajFa4UNsTm0&loop=1"
+                    title="חגי בר מאיר - שלוליות" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="youtubeVideo"
+                    src="https://www.youtube.com/embed/gzLiI4ZQeCI?autoplay=1&mute=1&playlist=gzLiI4ZQeCI&loop=1"
+                    title="נעה ניר - שיר לנועה" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <iframe width="420" height="315" src="https://www.youtube.com/watch?v=ajFa4UNsTm0"></iframe> -->
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="profile hebrew" id="reviews">
+            <h2>לקוחות ממליצים</h2>
+            <div class="review-container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <!-- <div class="swiper-slide">
+                            <h3 class="review-name">נעה שאואט</h3>
+                            <p class="review-text">
+                                אני סופר ממליצה על העבודות שלכם! קודם כל העיצובים שלכם ברמה סופר גבוהה ויש לה ייחודיות
+                                מטורפת, אני יכולה להיות חסרת ויזן לגמרי ולזרוק לך מילה שניים ואתה ישר תדע איך לקחת את זה
+                                לקצה ולעשות מזה יצירת אומנות אז המקצועיות היא ברמה הכי גבוהה שיש וגם השירות ! הכל סופר
+                                זריז זמינות שיא הכל נעשה ברוח טובה וברצון ובכיף ואני ממש זכיתי בכם!!!
+                            </p> -->
+                        <!-- </div> -->
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                    <!-- If we need scrollbar -->
+                    <!-- <div class="swiper-scrollbar"></div> -->
+                </div>
+            </div>
+        </div>
+        <!--<hr />-->
+        <div class="bundles hebrew" id="bundles">
+            <h2>החבילות שלנו</h2>
+            <div class="row justify-content-center" style="margin: 0;">
+                <div class="pricing-col col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>חבילת מוזיקאי</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>Free</h2>
+                            <p>עטיפת סינגל / אלבום</p>
+                            <!-- <p>Header ליוטיוב ופלטפורמות סטרימינג</p> -->
+                            <p>Thumbnail ליוטיוב</p>
+                            <p>עריכת קליפ</p>
+                            <p>פוסטר</p>
+                            <!-- <button type="button" class="btn btn-lg btn-outline-dark">Sign Up</button> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-col col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>חבילת עסק מתחיל</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>$49 / mo</h2>
+                            <p>לוגו</p>
+                            <p>אייקון</p>
+                            <p>מיתוג (צבעים, פונטים)</p>
+                            <p>כרטיס ביקור</p>
+
+                            <!-- <button type="button" class="btn btn-lg btn-outline-dark">Sign Up</button> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-col col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>חבילת סושיאל</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2>$99 / mo</h2>
+                            <p>לוגו</p>
+                            <p>מיתוג (צבעים, פונטים)</p>
+                            <p>עיצוב פוסטים</p>
+                            <p>עיצוב תמונת פרופיל</p>
+                            <p>עיצוב header</p>
+                            <!-- <button type="button" class="btn btn-lg btn-outline-dark">Sign Up</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+        <div class="contact-us hebrew" id="contact">
+            <h2>צרו קשר</h2>
+            <br />
+            <p>היי! מוזמנים לכתוב לנו במייל או באינסטגרם לגבי כל פרויקט ועבודה.</p>
+            <p>תארו את המוצר שתרצו שניצור בשבילכם;</p>
+            <p>איך הייתם רוצים שייראה, מי קהל היעד, האם יש לכם ויז׳ן כלשהו, רפרנסים וכל דבר כזה או אחר.</p>
+            <p>כמובן שהתהליך כולו יתבצע תוך שיח משותף עד שנגיע לתוצאה המיטבית בשבילכם!</p>
+            <p>כתובת המייל שלנו: <span class="selectable">bmgraphicas@gmail.com</span></p>
+            <a class="btn btn-outline-light btn-lg" href="mailto:bmgraphicas@gmail.com">שלחו לנו מייל!</a>
+        </div>
+    </section>
+
+    <section class="bottom-container">
+        <a class="footer-link" href="https://www.facebook.com/profile.php?id=100087661849629" target="_blank">
+            <i class="fab fa-square-facebook fa-lg" aria-hidden="true"></i>
+        </a>
+        <a class="footer-link" href="https://www.instagram.com/bm.graphica/" target="_blank">
+            <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
+        </a>
+        <p class="copyright">© 2024 BM Studio</p>
+    </section>
+
+    <script>
+        //window.scrollTo(0, 0);
+        document.body.style.overflow = "hidden";
+        var path = document.getElementsByClassName("path")[0];
+        path.addEventListener("animationend", function () {
+            removeFadeOut(document.getElementById('loadingDiv'), 1000);
+        });
+
+        function removeFadeOut(element, speed) {
+            var seconds = speed / 1000;
+            element.style.transition = "opacity " + seconds + "s ease";
+            element.style.opacity = 0;
+            setTimeout(function () {
+                element.parentNode.removeChild(element);
+                document.body.style.overflow = "scroll";
+            }, speed);
+        }
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+        var requestOptions = {
+            method: "get",
+            headers: myHeaders,
+            redirect: "follow",
+        };
+
+        //Not using nocodeapi
+        let domainUrl = "https://graph.instagram.com/me/media?";
+        let fields = "fields=media_url,thumbnail_url,permalink,media_type&limit=30";
+        var access_token =
+            "IGQWRQLWhKX182TzBhdlh5Rk9mVWRFeTNEX3ZANZAkpLMEtyQWRhSXdHVnoydk9zalNsMkh1MG1JUTBlVWxodWlWZAm53Tnk2Y3F4OFUyOUJ1MDJkVk5BNmJyRS1xSWdZASkFjSEMyS3pYVERaU0xFU3g4OGNtU1E2bVkZD";
+        var fullUrl = domainUrl + fields + "&access_token=" + access_token;
+
+        fetch(fullUrl, requestOptions)
+            .then(response => response.json())
+            .then(dataArray => {
+                console.log(dataArray);
+                dataArray.data.forEach(element => {
+                    // console.log(element.media_url)
+                    if (element.media_type == "VIDEO") //Then set source as thumbnail
+                        document.getElementById("instagramContainer").innerHTML +=
+                        '<a style="margin:0px" target="_blank" href="' + element.permalink +
+                        '"><img class="instagramAsset" src=' + element.thumbnail_url + '></a>'
+                    else
+                        document.getElementById("instagramContainer").innerHTML +=
+                        '<a style="margin:0px" target="_blank" href="' + element.permalink +
+                        '"><img class="instagramAsset" src=' + element.media_url + '></a>'
+                });
+            })
+            .catch(error => console.log('error', error));
+
+        //Animate
+        //setTimeout("simulateHover()", 5000);
+
+        
+        var assets;
+        assets = Array.from(document.getElementsByClassName("instagramAsset"));
+        var index = 0;
+
+        var hoverSpeed = 125;
+
+        setInterval(simulateHover, hoverSpeed);
+
+        function simulateHover() {
+            assets = Array.from(document.getElementsByClassName("instagramAsset"));
+            if (assets.length>0) {
+                assets[index].classList.add("hover-effect");
+                var current = assets[index];
+                setTimeout(function() {removeHover(current)}, hoverSpeed*2);
+                index++;
+                // index = Math.floor(Math.random() * assets.length);
+                if (index == assets.length)
+                    index = 0;
+            }
+        }
+
+        function simulateHoverOld() {
+            var assets = document.getElementsByClassName("instagramAsset");
+            assets = Array.from(assets);
+            for (var i = 0; i < assets.length; i++) {
+                assets[i].classList.add("hover-effect");
+                setTimeout(function () {
+                    console.log(i) /*removeHover(assets[i])*/
+                }, 500 * i);
+            }
+        }
+
+        function addHover(el) {
+            el.classList.add("hover-effect");
+        }
+
+        function removeHover(el) {
+            el.classList.remove("hover-effect");
+        }
+        // Adding all reviews before initiating Swiper
+        reviews = [{
+                name: "נעה שאואט",
+                text: "אני סופר ממליצה על העבודות שלכם! קודם כל העיצובים שלכם ברמה סופר גבוהה ויש לה ייחודיות מטורפת, אני יכולה להיות חסרת ויזן לגמרי ולזרוק לך מילה שניים ואתה ישר תדע איך לקחת את זה לקצה ולעשות מזה יצירת אומנות אז המקצועיות היא ברמה הכי גבוהה שיש וגם השירות ! הכל סופר זריז זמינות שיא הכל נעשה ברוח טובה וברצון ובכיף ואני ממש זכיתי בכם!!!"
+            },
+            {
+                name: "נעה ניר",
+                text: "העבודה שלי עם BM STUDIO היא חווית עבודה הכי מקצועית, אכפתית, מסורה, מדהימה וטובה שנתקלתי בה \n" +
+                    "וזה אחרי עבודה עם המון אנשי מקצוע בתעשייה, הם באמת התעלו מעל הכל. \n" +
+                    "מדובר קודם כל באנשים מדהימים ורגישים, ומעל להכל - פשוט מקצועיים שאכפת להם באמת מהלקוחות שלהם, \n" +
+                    "וזה כלכך נדיר למצוא אנשים כאלה היום. \n" +
+                    "אני יכולה להגיד בלב שלם שהם האנשים שלי לכל פתרון ובעיה. הם תמיד עוזרים, מתעניינים ועובדים ברגישות אמיתית וביחס חם וכלכך כיף. \n" +
+                    "זאת מתנה לעבוד עם צוות שאני סומכת עליהם במיליון אחוז \n" +
+                    "ואמשיך לעבוד איתם יד ביד בכל פרוייקט שלי. לא יצא לי עוד לכתוב  המלצה כזאת מהלב, אבל באמת שכלכך מגיע להם. \n" +
+                    "היו כמה פעמים שהייתי צריכה עזרה מהרגע להרגע, והם מיד נענו לי ועזרו לי בהתנדבות ובלב ענק \n" +
+                    "רק כדי לעזור בעת צרה ולהיות לצידי, וזה משהו שלא אשכח להם! \n" +
+                    "אם יש לי המלצה אחת, זה פשוט לשתף איתם פעולה בכל דרך שתבחרו. ❤️"
+            },
+            {
+                name: "טבע דקל",
+                text: "מעבר לזה שאברי ואופיר פשוט מוכשרים בטירוף וכל שירות שהם מציעים ללקוח הוא הכי מקצועי שיש, הם נותנים יחס אישי ומותאם בול למה שאני צריכה כל פעם מחדש! יש להם את הסבלנות, את הרגישות ואת היכולת ללוות אותי בתהליך ולהביא את התוצר שהכי מתאים לי. הם הופכים את הרעיון שלי מחלום קטן למציאות! לא הייתי בוחרת באף אחד אחר במקומם🫶"
+            },
+            {
+                name: "ליאב ויצמן",
+                text: "קודם כל ממש תודה על הלוגו שמלווה אותי כמעט שנה 🥰\n" +
+                    "אני מרוצה ממנו בטירוף וזה בול התוספת הקטנה שהייתי צריכה לעסק שלי כדי שייראה יותר רציני, מקצועי ואסתטי \n" +
+                    "ותודה גם על היחס שנתת לי זה היה לגמריי פתוח לבחירה ועשינו גם קצת שינויים תוך כדי עד שהגענו לתוצר הסופי שהייתי סופר מרוצה ממנו 🫶🏻"
+            },
+            {
+                name: "נבו אזולאי",
+                text: "BM Studio- תותחים! \n" +
+                    "אנשים שיודעים לעשות את העבודה ונותנים 100% מעצמם ללקוח. הם בנו לי לוגו לעסק לפני כמה חודשים והרגשתי שזה בדיוק מה שמתאים לי מבחינת הקונספט, לא מצטער לרגע  שבחרתי בהם!"
+            },
+            {
+                name: "עידו מועלם",
+                text: "תודה לצוות BM Studio על ההירתמות מכל הלב במהלך מלחמת \"חרבות ברזל\" לליווי של עיצוב גרפי עבורנו, קהילת ההסברה IronBridge. תודה מיוחדת לאברי על קרייאטיב לתוך השעות הקטנות של הלילה ועזרה בכל מה שצריך על מנת לבצע הסברה איכותית"
+            },
+            {
+                name: "ערן ניר",
+                text: "המשרד עיצב עבורי כרזה בשיא המהירות והכישרון לשביעות רצוני המלאה תוך שירות ומענה מהיר ממליץ בחום"
+            },
+            {
+                name: "עמית מידן",
+                text: "בעבודה איתכם ממש הרגשתי שהדעה שלי הכי חשובה ושהכי חשוב שאני אהיה מרוצה, זה היה ממש משמעותי בשבילי כי זה פרויקט שממש קרוב לליבי אז כל דבר קטן הרגיש כמו משהו גדול וזה היה כל כך נעים להרגיש שיש הקשבה ואכפתיות ורצון אמיתי שזה יהיה מושלם❤️ תודה"
+            }
+        ];
+        reviews.forEach(review => {
+            document.getElementsByClassName("swiper-wrapper")[0].innerHTML +=
+                "<div class='swiper-slide'><h3 class='review-name'>" + review.name +
+                "</h3><div class='review-text-container'><p class='review-text'>" + review.text +
+                "</p></div></div>";
+        });
+
+        //Swiper
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            slidesPerView: 'auto',
+            centeredSlides: true,
+            effect: 'cards',
+            simulateTouch: true,
+
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            autoplay: {
+                delay: 5000,
+            }
+            // // And if we need scrollbar
+            // scrollbar: {
+            //     el: '.swiper-scrollbar',
+            // },
+        });
+    </script>
+</body>
+
+</html>
