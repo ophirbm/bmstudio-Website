@@ -388,8 +388,7 @@ z" />
         //Not using nocodeapi
         let domainUrl = "https://graph.instagram.com/me/media?";
         let fields = "fields=media_url,thumbnail_url,permalink,media_type&limit=30";
-        var access_token =
-            "IGQWRQLWhKX182TzBhdlh5Rk9mVWRFeTNEX3ZANZAkpLMEtyQWRhSXdHVnoydk9zalNsMkh1MG1JUTBlVWxodWlWZAm53Tnk2Y3F4OFUyOUJ1MDJkVk5BNmJyRS1xSWdZASkFjSEMyS3pYVERaU0xFU3g4OGNtU1E2bVkZD";
+        var access_token = "";
         var fullUrl = domainUrl + fields + "&access_token=" + access_token;
 
         fetch(fullUrl, requestOptions)
