@@ -395,7 +395,7 @@ z" />
             .then(response => response.json())
             .then(dataArray => {
                 console.log(dataArray);
-                dataArray.data.forEach(element => {
+                dataArray.forEach(element => {
                     // console.log(element.media_url)
                     if (element.media_type == "VIDEO") //Then set source as thumbnail
                         document.getElementById("instagramContainer").innerHTML +=
