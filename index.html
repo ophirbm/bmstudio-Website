@@ -392,7 +392,7 @@ z" />
                     else
                         document.getElementById("instagramContainer").innerHTML +=
                         '<a style="margin:0px" target="_blank" href="' + element.permalink +
-                        '"><img class="instagramAsset" src=' + element.media_url + '></a>'
+                        '"><img class="instagramAsset" src=' + element.permalink + "media/?size=m" + '></a>'
                 });
             })
             .catch(error => console.log('error', error));
