@@ -388,11 +388,11 @@ z" />
                     if (element.media_type == "VIDEO") //Then set source as thumbnail
                         document.getElementById("instagramContainer").innerHTML +=
                         '<a style="margin:0px" target="_blank" href="' + element.permalink +
-                        '"><img class="instagramAsset" src=' + element.thumbnail_url + '></a>'
+                        '"><img class="instagramAsset" src=' + element.permalink + "media/?size=l" + '></a>'
                     else
                         document.getElementById("instagramContainer").innerHTML +=
                         '<a style="margin:0px" target="_blank" href="' + element.permalink +
-                        '"><img class="instagramAsset" src=' + element.permalink + "media/?size=m" + '></a>'
+                        '"><img class="instagramAsset" src=' + element.permalink + "media/?size=l" + '></a>'
                 });
             })
             .catch(error => console.log('error', error));
