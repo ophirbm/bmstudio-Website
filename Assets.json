@@ -1,5 +1,4 @@
-{
-  "data": [
+[
     {
       "media_url": "https://scontent-fra3-2.cdninstagram.com/v/t39.30808-6/457358442_18028995350203702_676436305463044394_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=18de74&_nc_ohc=BNZuNQShT88Q7kNvgH-QH73&_nc_ht=scontent-fra3-2.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AYAIEqGVcqsNKQH1SU-NFyZIGA-zj4AeSMuxzQHGbFwvLQ&oe=66DFAB13",
       "permalink": "https://www.instagram.com/p/C_LpeM-qzUx/",
@@ -187,12 +186,4 @@
       "media_type": "CAROUSEL_ALBUM",
       "id": "17899439543946486"
     }
-  ],
-  "paging": {
-    "cursors": {
-      "before": "QVFIUmE1YWJuTzRGOXJ4U1dUWHZAGU3EwQnlraEpSUmx5SndvMl9lckMzTGNKMllzM25jSkJVM3MtWHNkazhRLThNeXUxbTI1NzBjWUVMOEVuWk02dEVRM25n",
-      "after": "QVFIUnFsX213c0lDT2I5cG9wWWFoRkRaTU4xd0p6Q2hVSktHMEx3a0JhU2RRbl9vWXp0aFhJRjM3MS12UWhWWDFPbGdaSE1hbHdLby1QX2tPMkdpYlhKM2lR"
-    },
-    "next": "https://graph.instagram.com/v20.0/17841436111039419/media?fields=media_url,thumbnail_url,permalink,media_type&limit=30&access_token=IGQWRNN1hJN1N6UXJGbEd5M0NhQ3BfUGRwd05qTmtHcmR5dFFDZAjA3bncySUJjaGVud3BGUV9zQXJIZA21WQmtpeHlGMEEyaThRZAHY3ZAi03d2ozQXVybmIzTmJSZAlJXSTctNWc5eHRNWFgzZA3E3bnhGNmdzSTdjTGsZD&pretty=1&after=QVFIUnFsX213c0lDT2I5cG9wWWFoRkRaTU4xd0p6Q2hVSktHMEx3a0JhU2RRbl9vWXp0aFhJRjM3MS12UWhWWDFPbGdaSE1hbHdLby1QX2tPMkdpYlhKM2lR"
-  }
-}
+  ]
