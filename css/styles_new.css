@@ -21,7 +21,7 @@ body {
     text-align: center;
     font-family: 'Kiwi Maru', serif;
     height: 100vh;
-    overflow: scroll;
+    overflow: visible;
 }
 
 nav {
