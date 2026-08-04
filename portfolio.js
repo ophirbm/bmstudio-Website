@@ -126,6 +126,10 @@ export const portfolio = {
         {
             title: "חגו - אלך איתך",
             youtubeId: "c2iYZr-xYs8"
+        },
+        {
+            title: "נעה שאואט - מי כותב לי תתסריט",
+            youtubeId: "FokyoOjJPaA"
         }
     ]
 };
