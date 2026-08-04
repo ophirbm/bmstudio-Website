@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -13,21 +13,22 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
     </script>
 
+
     <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
-	<link rel="icon" type="image/png" sizes="16x16" href="Images/favicon_16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon_16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Maven+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
-    <!-- Swiper -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="css/styles_new.css">
+    <link rel="stylesheet" href="css/glass-carousel.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/096d9f183f.js" crossorigin="anonymous"></script>
+    <script type="module" src="./gallery.js"></script>
 
 </head>
 
@@ -80,10 +81,10 @@ M2372.000000,1790.000000
 z" />
         </svg>
     </div>
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark" style="z-index: 2; padding: 0;">
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark" style="padding: 0;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="Images/BM _STUDIO_Logo.png" width="35" />
+                <img src="Images/BM _STUDIO_Logo.png" width="50" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -92,7 +93,7 @@ z" />
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav hebrew">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">בית</a>
+                        <a class="nav-link" aria-current="page" href="#home">בית</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">עלינו</a>
@@ -106,7 +107,7 @@ z" />
                     <li class="nav-item">
                         <a class="nav-link" href="#reviews">המלצות</a>
                     </li>
-<!--                     <li class="nav-item">
+                    <!--                     <li class="nav-item">
                         <a class="nav-link" href="#bundles">חבילות</a>
                     </li> -->
                     <li class="nav-item">
@@ -116,178 +117,152 @@ z" />
             </div>
         </div>
     </nav>
-    <section class="top-container">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <h2>Welcome To</h2>
-        <div class="logo-parent">
-            <div class="glowing-top"></div>
-            <div class="glowing-btm"></div>
+    <section class="top-container" id="home">
+        <img src="./Images/Layer1.png" class="parallax layer-1" data-depth="10">
+        <img src="./Images/Layer2.png" class="parallax layer-2" data-depth="25">
+        <img src="./Images/Layer3.png" class="parallax layer-3" data-depth="50">
+        <div class="hero-overlay"></div>
+        <div class="section-content">
+            <h1 class="gradient-title">ברוכים הבאים ל-BM Studio.</h1>
+            <h2>אנחנו מעצבים.</h2>
+            <h2>אנחנו מספרים סיפורים.</h2>
+            <h3>עיצוב גרפי & עריכת וידאו
+                שהופכים את הרעיונות שלכם למציאות.
+            </h3>
+            <a href="#gallery" class="gradient-btn">
+                עבודות לדוגמה
+                <i class="fa-solid fa-angle-down fa-lg" aria-hidden="true"></i>
+            </a>
+            <!-- <div class="logo-parent">
             <img class="logo" src="Images/BM _STUDIO_Logo.png" alt="logo" width="25%">
+        </div> -->
         </div>
-        <h1>BM Studio</h1>
-        <h3>Photoshop・Edits・Design</h3>
     </section>
     <!-- <hr> -->
     <section class="middle-container">
-        <div class="profile hebrew" id="about">
+        <section class="profile hebrew" id="about">
             <!-- <img src="" alt=""> -->
-            <h2>קצת עלינו</h2>
-            <br />
-            <p>אהלן! אנחנו אברי ואופיר,</p>
-            <p>אחים תאומים שעוסקים בעיצוב גרפי, מיתוג ועריכת וידאו ותמונות.</p>
-            <p>מגיל צעיר עסקנו בתחום כתחביב, שבמהלך השנים רק התפתח ונהיה חלק בלתי נפרד מהחיים שלנו.</p>
-            <p>לאחר השחרור מהצבא החלטנו לקחת את התחביב צעד אחד קדימה ולפתוח עסק ביחד.</p>
-            <p>אנחנו מאמינים בעבודה משותפת ותקשורת תמידית עם הלקוח לכל אורך הדרך.</p>
-            <p>בתחילת מלחמת ״חרבות ברזל״ הסבנו את העסק למשך מספר חודשים לעסק התנדבותי בלבד למען פרוייקטים שקמו לאור המצב;</p>
-            <p>להעלאת מודעות, להנצחת חללים, ולעסקים שנפגעו בעקבות המלחמה.</p>
-            <p>אנחנו עובדים עם מגוון רחב מאוד של לקוחות:</p>
-            <p>זמרים ומוזיקאים, שחקנים, צלמים, עסקים קטנים, בתי ספר, ואפילו עם מספר יחידות בצבא.</p>
-            <p>מוזמנים <a style="text-decoration: underline; margin: auto;" href="#contact">ליצור איתנו קשר</a> במייל או
-                באינסטגרם לכל פרויקט שאתם צריכים!</p>
-            <!-- <img class="us" src="Images/Us.png"/> -->
-            <!-- <div class="company-header-avatar" style="background-image: url(Images/Us.png)"></div> -->
-        </div>
+            <!-- <img class="us" src="Images/Profile_Picture.png"/> -->
+            <img src="./Images/Layer1.png" class="parallax layer-1" data-depth="15">
+            <!-- <img src="./Images/Layer2.png" class="parallax layer-2" data-depth="25"> -->
+            <img src="./Images/Profile_Picture.png" class="parallax us" data-depth="25">
+            <div class="about-overlay"></div>
+            <div class="section-content">
+                <h2 class="gradient-title">קצת עלינו</h2>
+                <br />
+                <p>אהלן! אנחנו אברי ואופיר,</p>
+                <p>אחים תאומים שעוסקים בעיצוב גרפי, מיתוג ועריכת וידאו ותמונות.</p>
+                <p>מגיל צעיר עסקנו בתחום כתחביב, שבמהלך השנים רק התפתח ונהיה חלק בלתי נפרד מהחיים שלנו.</p>
+                <p>לאחר השחרור מהצבא החלטנו לקחת את התחביב צעד אחד קדימה ולפתוח עסק ביחד.</p>
+                <p>אנחנו מאמינים בעבודה משותפת ותקשורת תמידית עם הלקוח לכל אורך הדרך.</p>
+                <p>בתחילת מלחמת ״חרבות ברזל״ הסבנו את העסק למשך מספר חודשים לעסק התנדבותי בלבד למען פרוייקטים שקמו לאור
+                    המצב;</p>
+                <p>להעלאת מודעות, להנצחת חללים, ולעסקים שנפגעו בעקבות המלחמה.</p>
+                <p>אנחנו עובדים עם מגוון רחב מאוד של לקוחות:</p>
+                <p>זמרים ומוזיקאים, שחקנים, צלמים, עסקים קטנים, בתי ספר, ואפילו עם מספר יחידות בצבא.</p>
+                <p>מוזמנים <a style="text-decoration: underline; margin: auto;" href="#contact">ליצור איתנו קשר</a>
+                    במייל או
+                    באינסטגרם לכל פרויקט שאתם צריכים!</p>
+            </div>
+        </section>
         <!-- <hr> -->
-        <div class="products hebrew" id="products">
-            <h2>המוצרים שלנו</h2>
-            <div class="product-row">
-                <i class="fa-solid fa-paintbrush fa-xl" style="color: #ffffff;" aria-hidden="true"></i>
-                <!-- <img class="productImg" src="Images/branding-logo-design.png" alt=""> -->
-                <h3>לוגו</h3>
-                <p>לוגו הוא הפנים של העסק שלכם.</p>
-                <p>הוא יהיה על כל מוצר, כל מודעה, על כל דבר שהלקוח יראה ויקושר אל העסק שלכם.</p>
-                <p>למעשה, זה הדבר הראשון שהלקוח יראה - הלוגו הוא בעצם הרושם הראשוני שלכם,</p>
-                <p>וכולם יודעים שאין שני לרושם ראשוני :)</p>
-                <p>לכן חשוב שהלוגו שלכם ייצג בדיוק את מי שאתם וימשוך לקוחות פוטנציאליים.</p>
-                <p>ואנחנו כאן לעצב לכם את הלוגו המושלם בשבילכם.</p>
-            </div>
-            <div class="product-row">
-                <i class="fa-solid fa-camera fa-xl" style="color: #ffffff;"></i>
-                <!-- <img class="productImg" src="Images/camera.png" alt=""> -->
-                <h3>עריכת תמונות & פוטושופ</h3>
-                <p>בדיוק צילמתם את התמונה המושלמת, אבל דבר אחד קטן הורס את כל התמונה. מעצבן, לא?</p>
-                <p>אל תדאגו, אנחנו נתקן את התמונה בשבילכם!</p>
-                <p>בנוסף, נשמח לערוך את התמונה שלכם כך שתהיה משופרת - יפה ואסתטית יותר.</p>
-            </div>
-            <div class="product-row">
-                <i class="fa-regular fa-film fa-xl" style="color: #ffffff;"></i>
-                <!-- <img class="productImg" src="Images/camera-roll.png" alt=""> -->
-                <h3>עריכת וידאו</h3>
-                <p>צריכים סרטון שנערך במיוחד עבור העסק שלכם, החתונה של האחות או יום ההולדת של חבר? </p>
-                <p>או קליפ נחמד ומקצועי לכל אירוע? או אפילו רק מצגת פשוטה של תמונות וסרטונים לאירוע מסויים?</p>
-                <p>אנחנו ניצור את הסרטון הזה בשבילכם! מוסיקה, אפקטים... הכל עלינו!</p>
-                <p>*כרגע אין ביכולתנו לצלם את הסרטון שלכם, אבל נשמח לערוך לכם את הסרטונים.</p>
-            </div>
-            <div class="product-row">
-                <i class="fa-solid fa-music fa-xl" style="color: #ffffff;"></i>
-                <!-- <img class="productImg" src="Images/branding-logo-design.png" alt=""> -->
-                <h3>עטיפת אלבום</h3>
-                <p>אתם עושים מוזיקה? בדיוק סיימתם את השיר/האלבום שלכם ואתם תקועים בשלב של להתחיל לחשוב על רעיון לעטיפה?
-                </p>
-                <p>עטיפת הסינגל או האלבום משחקת תפקיד קריטי ביותר כשמדובר במשיכת הקהל לשמוע את השיר שלכם.</p>
-                <p>אנחנו נעצב לכם את העטיפה המדוייקת ביותר לשיר או לאלבום שלכם, עם אופציה לעטיפה מונפשת לפלטפורמות
-                    התומכות בפיצ׳ר זה.</p>
-            </div>
-            <div class="product-row">
-                <i class="fa-regular fa-newspaper fa-xl" style="color: #ffffff;" aria-hidden="true"></i>
-                <!-- <img class="productImg" src="Images/branding-logo-design.png" alt=""> -->
-                <h3>פרסומות & פוסטרים</h3>
-                <p>צריכים פרסומת לעסק? פוסטר לסרט? לקליפ?</p>
-                <p>אנחנו כאן כדי לעצב לכם את המודעה / פרסומת / פוסטר המושלמים בשביל קהל היעד שלכם!</p>
-            </div>
-            <div class="product-row">
-                <i class="fa-solid fa-person-walking fa-2xl" style="color: #ffffff;"></i>
-                <!-- <img class="productImg" src="Images/video roll animation.gif" alt=""> -->
-                <h3>אנימציות</h3>
-                <p>קליפ אנימציה הוא אחת הדרכים המעניינות והכיפיות ביותר לתת ביטוי לסיפור, לשיר, להרצאה, תוך משיכת תשומת
-                    הלב
-                    של קהל היעד שלכם.</p>
-                <p>זו דרך מצויינת להפיח חיים בדמיון ובחלומות שלכם על ידי יצירת אנימציות לא ריאליסטיות,</p>
-                <p>וזו דרך להעביר ולהביא לידי ביטוי את הרעיונות שלכם בצורה יותר יעילה ופשוטה להבנת קהל היעד.</p>
-            </div>
-        </div>
-        <!-- <hr> -->
-        <div class="gallery" id="gallery">
-            <h2 class="hebrew">חלק מהעבודות שלנו</h2>
-            <div id="instagramContainer">
-            </div>
-            <div id="youtubeContainer">
-                <iframe class="youtubeVideo"
-                    src="https://www.youtube.com/embed/dKTIxhjpfP4?autoplay=1&mute=1&playlist=dKTIxhjpfP4&loop=1"
-                    title="נעה ניר - מאז שהרגשתי | Noa Nir - Meaz Shehergashti" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <iframe class="youtubeVideo"
-                    src="https://www.youtube.com/embed/ajFa4UNsTm0?autoplay=1&mute=1&playlist=ajFa4UNsTm0&loop=1"
-                    title="חגי בר מאיר - שלוליות" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <iframe class="youtubeVideo"
-                    src="https://www.youtube.com/embed/gzLiI4ZQeCI?autoplay=1&mute=1&playlist=gzLiI4ZQeCI&loop=1"
-                    title="נעה ניר - שיר לנועה" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		<iframe class="youtubeVideo"
-                    src="https://www.youtube.com/embed/FokyoOjJPaA?autoplay=1&mute=1&playlist=FokyoOjJPaA&loop=1"
-                    title="מי כותב לי תתסריט - נעה שאואט" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <!-- <iframe width="420" height="315" src="https://www.youtube.com/watch?v=ajFa4UNsTm0"></iframe> -->
-            </div>
-        </div>
-        <!-- <hr> -->
-        <div class="profile hebrew" id="reviews">
-            <h2>לקוחות ממליצים</h2>
-            <div class="review-container">
-                <div class="swiper">
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <!-- <div class="swiper-slide">
-                            <h3 class="review-name">נעה שאואט</h3>
-                            <p class="review-text">
-                                אני סופר ממליצה על העבודות שלכם! קודם כל העיצובים שלכם ברמה סופר גבוהה ויש לה ייחודיות
-                                מטורפת, אני יכולה להיות חסרת ויזן לגמרי ולזרוק לך מילה שניים ואתה ישר תדע איך לקחת את זה
-                                לקצה ולעשות מזה יצירת אומנות אז המקצועיות היא ברמה הכי גבוהה שיש וגם השירות ! הכל סופר
-                                זריז זמינות שיא הכל נעשה ברוח טובה וברצון ובכיף ואני ממש זכיתי בכם!!!
-                            </p> -->
-                        <!-- </div> -->
-                    </div>
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
-
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
-                    <!-- If we need scrollbar -->
-                    <!-- <div class="swiper-scrollbar"></div> -->
+        <section class="products hebrew" id="products">
+            <img src="./Images/Layer1.png" class="parallax layer-1" data-depth="15">
+            <div class="products-overlay"></div>
+            <div class="section-content">
+                <h2 class="gradient-title">המוצרים שלנו</h2>
+                <div class="product-row">
+                    <i class="fa-solid fa-paintbrush fa-xl" style="color: #ffffff;" aria-hidden="true"></i>
+                    <!-- <img class="productImg" src="Images/branding-logo-design.png" alt=""> -->
+                    <h3>לוגו</h3>
+                    <p>לוגו הוא הפנים של העסק שלכם.</p>
+                    <p>הוא יהיה על כל מוצר, כל מודעה, על כל דבר שהלקוח יראה ויקושר אל העסק שלכם.</p>
+                    <p>למעשה, זה הדבר הראשון שהלקוח יראה - הלוגו הוא בעצם הרושם הראשוני שלכם,</p>
+                    <p>וכולם יודעים שאין שני לרושם ראשוני :)</p>
+                    <p>לכן חשוב שהלוגו שלכם ייצג בדיוק את מי שאתם וימשוך לקוחות פוטנציאליים.</p>
+                    <p>ואנחנו כאן לעצב לכם את הלוגו המושלם בשבילכם.</p>
+                </div>
+                <div class="product-row">
+                    <i class="fa-solid fa-camera fa-xl" style="color: #ffffff;"></i>
+                    <!-- <img class="productImg" src="Images/camera.png" alt=""> -->
+                    <h3>עריכת תמונות & פוטושופ</h3>
+                    <p>בדיוק צילמתם את התמונה המושלמת, אבל דבר אחד קטן הורס את כל התמונה. מעצבן, לא?</p>
+                    <p>אל תדאגו, אנחנו נתקן את התמונה בשבילכם!</p>
+                    <p>בנוסף, נשמח לערוך את התמונה שלכם כך שתהיה משופרת - יפה ואסתטית יותר.</p>
+                </div>
+                <div class="product-row">
+                    <i class="fa-regular fa-film fa-xl" style="color: #ffffff;"></i>
+                    <!-- <img class="productImg" src="Images/camera-roll.png" alt=""> -->
+                    <h3>עריכת וידאו</h3>
+                    <p>צריכים סרטון שנערך במיוחד עבור העסק שלכם, החתונה של האחות או יום ההולדת של חבר? </p>
+                    <p>או קליפ נחמד ומקצועי לכל אירוע? או אפילו רק מצגת פשוטה של תמונות וסרטונים לאירוע מסויים?</p>
+                    <p>אנחנו ניצור את הסרטון הזה בשבילכם! מוסיקה, אפקטים... הכל עלינו!</p>
+                    <p>*כרגע אין ביכולתנו לצלם את הסרטון שלכם, אבל נשמח לערוך לכם את הסרטונים.</p>
+                </div>
+                <div class="product-row">
+                    <i class="fa-solid fa-music fa-xl" style="color: #ffffff;"></i>
+                    <!-- <img class="productImg" src="Images/branding-logo-design.png" alt=""> -->
+                    <h3>עטיפת אלבום</h3>
+                    <p>אתם עושים מוזיקה? בדיוק סיימתם את השיר/האלבום שלכם ואתם תקועים בשלב של להתחיל לחשוב על רעיון
+                        לעטיפה?
+                    </p>
+                    <p>עטיפת הסינגל או האלבום משחקת תפקיד קריטי ביותר כשמדובר במשיכת הקהל לשמוע את השיר שלכם.</p>
+                    <p>אנחנו נעצב לכם את העטיפה המדוייקת ביותר לשיר או לאלבום שלכם, עם אופציה לעטיפה מונפשת לפלטפורמות
+                        התומכות בפיצ׳ר זה.</p>
+                </div>
+                <div class="product-row">
+                    <i class="fa-regular fa-newspaper fa-xl" style="color: #ffffff;" aria-hidden="true"></i>
+                    <!-- <img class="productImg" src="Images/branding-logo-design.png" alt=""> -->
+                    <h3>פרסומות & פוסטרים</h3>
+                    <p>צריכים פרסומת לעסק? פוסטר לסרט? לקליפ?</p>
+                    <p>אנחנו כאן כדי לעצב לכם את המודעה / פרסומת / פוסטר המושלמים בשביל קהל היעד שלכם!</p>
+                </div>
+                <div class="product-row">
+                    <i class="fa-solid fa-person-walking fa-2xl" style="color: #ffffff;"></i>
+                    <!-- <img class="productImg" src="Images/video roll animation.gif" alt=""> -->
+                    <h3>אנימציות</h3>
+                    <p>קליפ אנימציה הוא אחת הדרכים המעניינות והכיפיות ביותר לתת ביטוי לסיפור, לשיר, להרצאה, תוך משיכת
+                        תשומת
+                        הלב
+                        של קהל היעד שלכם.</p>
+                    <p>זו דרך מצויינת להפיח חיים בדמיון ובחלומות שלכם על ידי יצירת אנימציות לא ריאליסטיות,</p>
+                    <p>וזו דרך להעביר ולהביא לידי ביטוי את הרעיונות שלכם בצורה יותר יעילה ופשוטה להבנת קהל היעד.</p>
                 </div>
             </div>
-        </div>
-<!--         <div class="bundles hebrew" id="bundles">
+        </section>
+        <!-- <hr> -->
+        <section class="gallery" id="gallery">
+            <!-- <img src="./Images/Layer1.png" class="parallax layer-1" data-depth="15"> -->
+            <div class="gallery-overlay"></div>
+            <div class="section-content">
+                <h2 class="hebrew gradient-title">העבודות שלנו</h2>
+                <div class="gallery-filters">
+                    <button class="gallery-filter" data-category="artworks">
+                        עטיפות
+                    </button>
+                    <button class="gallery-filter active" data-category="logos">
+                        לוגואים
+                    </button>
+                    <button class="gallery-filter" data-category="posters">
+                        פוסטרים
+                    </button>
+                    <button class="gallery-filter" data-category="videos">
+                        סרטונים
+                    </button>
+                </div>
+                <div id="gallery-grid"></div>
+            </div>
+        </section>
+        <!-- <hr> -->
+        <section class="profile hebrew" id="reviews">
+            <img src="./Images/Layer1.png" class="parallax layer-1" data-depth="15">
+            <div class="reviews-overlay"></div>
+            <div class="section-content">
+                <h2 class="gradient-title">לקוחות ממליצים</h2>
+                <div id="testimonialCarousel"></div>
+            </div>
+        </section>
+        <!--         <div class="bundles hebrew" id="bundles">
             <h2>החבילות שלנו</h2>
             <div class="row justify-content-center" style="margin: 0;">
                 <div class="pricing-col col-lg-4 col-md-6">
@@ -338,8 +313,8 @@ z" />
             </div>
         </div>
         <!-- <hr> -->
-        <div class="contact-us hebrew" id="contact">
-            <h2>צרו קשר</h2>
+        <section class="contact-us hebrew" id="contact">
+            <h2 class="gradient-title">צרו קשר</h2>
             <br />
             <p>היי! מוזמנים לכתוב לנו במייל או באינסטגרם לגבי כל פרויקט ועבודה.</p>
             <p>תארו את המוצר שתרצו שניצור בשבילכם;</p>
@@ -347,21 +322,172 @@ z" />
             <p>כמובן שהתהליך כולו יתבצע תוך שיח משותף עד שנגיע לתוצאה המיטבית בשבילכם!</p>
             <p>כתובת המייל שלנו: <span class="selectable">bmgraphicas@gmail.com</span></p>
             <a class="btn btn-outline-light btn-lg" href="mailto:bmgraphicas@gmail.com">שלחו לנו מייל!</a>
-        </div>
+        </section>
     </section>
 
     <section class="bottom-container">
         <a class="footer-link" href="https://www.facebook.com/profile.php?id=100087661849629" target="_blank">
             <i class="fab fa-square-facebook fa-lg" aria-hidden="true"></i>
         </a>
-        <a class="footer-link" href="https://www.instagram.com/bm.stdio/" target="_blank">
+        <a class="footer-link" href="https://www.instagram.com/bm.graphica/" target="_blank">
             <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
         </a>
-        <p class="copyright">© 2025 BM Studio</p>
+        <p class="copyright">© 2026 BM Studio</p>
     </section>
 
     <script>
-        //window.scrollTo(0, 0);
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        function updateActiveNav() {
+            const viewportCenter = window.innerHeight / 2;
+
+            let currentSection = null;
+
+            sections.forEach(section => {
+                const rect = section.getBoundingClientRect();
+
+                if (
+                    rect.top <= viewportCenter &&
+                    rect.bottom >= viewportCenter
+                ) {
+                    currentSection = section.id;
+                }
+            });
+
+            if (currentSection) {
+                navLinks.forEach(link => {
+                    link.classList.toggle(
+                        "active",
+                        link.getAttribute("href") === `#${currentSection}`
+                    );
+                });
+            }
+        }
+
+        window.addEventListener("scroll", updateActiveNav);
+        window.addEventListener("load", updateActiveNav);
+
+
+        //Parallax
+        const layers = document.querySelectorAll('.parallax');
+
+        let mouseX = 0;
+        let mouseY = 0;
+
+        document.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX / window.innerWidth - 0.5;
+            mouseY = e.clientY / window.innerHeight - 0.5;
+        });
+
+        function animateDesktop() {
+
+            layers.forEach(layer => {
+
+                const depth = Number(layer.dataset.depth);
+
+                const targetX = mouseX * depth;
+                const targetY = mouseY * depth;
+
+                const currentX =
+                    Number(layer.dataset.x || 0);
+
+                const currentY =
+                    Number(layer.dataset.y || 0);
+
+                const nextX =
+                    currentX + (targetX - currentX) * 0.08;
+
+                const nextY =
+                    currentY + (targetY - currentY) * 0.08;
+
+                layer.dataset.x = nextX;
+                layer.dataset.y = nextY;
+
+                layer.style.transform =
+                    `translate(${nextX}px, ${nextY}px)`;
+            });
+
+            requestAnimationFrame(animateDesktop);
+        }
+
+
+        //Mobile Parallax
+
+        /*if (
+            typeof DeviceOrientationEvent !== 'undefined' &&
+            typeof DeviceOrientationEvent.requestPermission === 'function'
+        ) {
+            document.addEventListener('click', async function handleFirstInteraction() {
+
+                document.removeEventListener('click', handleFirstInteraction);
+
+                try {
+
+                    const permission =
+                        await DeviceOrientationEvent.requestPermission();
+
+                    console.log(permission);
+
+                    // if (permission === 'granted') {
+                    //     animateMobile();
+                    // }
+
+                } catch (err) {
+                    console.error(err);
+                }
+
+            }, {
+                once: true
+            });
+        }
+
+
+        let targetX = 0;
+        let targetY = 0;
+
+        window.addEventListener('deviceorientation', (event) => {
+
+            targetX = (event.gamma || 0) * 0.2;
+            targetY = (event.beta || 0) * 0.1;
+
+        });
+        let currentX = 0;
+        let currentY = 0;
+
+        function animateMobile() {
+
+            currentX += (targetX - currentX) * 0.08;
+            currentY += (targetY - currentY) * 0.08;
+
+            layers.forEach(layer => {
+
+                const depth = Number(layer.dataset.depth);
+
+                layer.style.transform =
+                    `translate(
+                ${currentX * depth / 10}px,
+                ${currentY * depth / 10}px
+            )`;
+            });
+
+            requestAnimationFrame(animateMobile);
+        }
+
+
+
+        const isMobile =
+            /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+        if (isMobile) {
+            animateMobile();
+        } else {
+            animateDesktop();
+        }*/
+        animateDesktop();
+
+
+
+        window.scrollTo(0, 0);
         document.body.style.overflow = "hidden";
         var path = document.getElementsByClassName("path")[0];
         path.addEventListener("animationend", function () {
@@ -374,7 +500,7 @@ z" />
             element.style.opacity = 0;
             setTimeout(function () {
                 element.parentNode.removeChild(element);
-                document.body.style.overflow = "visible";
+                document.body.style.overflow = "scroll";
             }, speed);
         }
         var myHeaders = new Headers();
@@ -384,152 +510,8 @@ z" />
             headers: myHeaders,
             redirect: "follow",
         };
-
-        fetch("Assets.json")
-            .then(response => response.json())
-            .then(dataArray => {
-                console.log(dataArray);
-                dataArray.forEach(element => {
-                    // console.log(element.media_url)
-                    if (element.media_type == "VIDEO") //Then set source as thumbnail
-                        document.getElementById("instagramContainer").innerHTML +=
-                        '<a style="margin:0px" target="_blank" href="' + element.permalink +
-                        '"><img class="instagramAsset" src=' + element.thumbnail_url + '></a>'
-                    else
-                        document.getElementById("instagramContainer").innerHTML +=
-                        '<a style="margin:0px" target="_blank" href="' + element.permalink +
-                        '"><img class="instagramAsset" src=' + element.media_url + '></a>'
-                });
-            })
-            .catch(error => console.log('error', error));
-
-        //Animate
-        //setTimeout("simulateHover()", 5000);
-
-        
-        var assets;
-        assets = Array.from(document.getElementsByClassName("instagramAsset"));
-        var index = 0;
-
-        var hoverSpeed = 125;
-
-        setInterval(simulateHover, hoverSpeed);
-
-        function simulateHover() {
-            assets = Array.from(document.getElementsByClassName("instagramAsset"));
-            if (assets.length>0) {
-                assets[index].classList.add("hover-effect");
-                var current = assets[index];
-                setTimeout(function() {removeHover(current)}, hoverSpeed*2);
-                index++;
-                // index = Math.floor(Math.random() * assets.length);
-                if (index == assets.length)
-                    index = 0;
-            }
-        }
-
-        function simulateHoverOld() {
-            var assets = document.getElementsByClassName("instagramAsset");
-            assets = Array.from(assets);
-            for (var i = 0; i < assets.length; i++) {
-                assets[i].classList.add("hover-effect");
-                setTimeout(function () {
-                    console.log(i) /*removeHover(assets[i])*/
-                }, 500 * i);
-            }
-        }
-
-        function addHover(el) {
-            el.classList.add("hover-effect");
-        }
-
-        function removeHover(el) {
-            el.classList.remove("hover-effect");
-        }
-        // Adding all reviews before initiating Swiper
-        reviews = [{
-                name: "נעה שאואט",
-                text: "אני סופר ממליצה על העבודות שלכם! קודם כל העיצובים שלכם ברמה סופר גבוהה ויש לה ייחודיות מטורפת, אני יכולה להיות חסרת ויזן לגמרי ולזרוק לך מילה שניים ואתה ישר תדע איך לקחת את זה לקצה ולעשות מזה יצירת אומנות אז המקצועיות היא ברמה הכי גבוהה שיש וגם השירות ! הכל סופר זריז זמינות שיא הכל נעשה ברוח טובה וברצון ובכיף ואני ממש זכיתי בכם!!!"
-            },
-            {
-                name: "נעה ניר",
-                text: "העבודה שלי עם BM STUDIO היא חווית עבודה הכי מקצועית, אכפתית, מסורה, מדהימה וטובה שנתקלתי בה \n" +
-                    "וזה אחרי עבודה עם המון אנשי מקצוע בתעשייה, הם באמת התעלו מעל הכל. \n" +
-                    "מדובר קודם כל באנשים מדהימים ורגישים, ומעל להכל - פשוט מקצועיים שאכפת להם באמת מהלקוחות שלהם, \n" +
-                    "וזה כלכך נדיר למצוא אנשים כאלה היום. \n" +
-                    "אני יכולה להגיד בלב שלם שהם האנשים שלי לכל פתרון ובעיה. הם תמיד עוזרים, מתעניינים ועובדים ברגישות אמיתית וביחס חם וכלכך כיף. \n" +
-                    "זאת מתנה לעבוד עם צוות שאני סומכת עליהם במיליון אחוז \n" +
-                    "ואמשיך לעבוד איתם יד ביד בכל פרוייקט שלי. לא יצא לי עוד לכתוב  המלצה כזאת מהלב, אבל באמת שכלכך מגיע להם. \n" +
-                    "היו כמה פעמים שהייתי צריכה עזרה מהרגע להרגע, והם מיד נענו לי ועזרו לי בהתנדבות ובלב ענק \n" +
-                    "רק כדי לעזור בעת צרה ולהיות לצידי, וזה משהו שלא אשכח להם! \n" +
-                    "אם יש לי המלצה אחת, זה פשוט לשתף איתם פעולה בכל דרך שתבחרו. ❤️"
-            },
-            {
-                name: "טבע דקל",
-                text: "מעבר לזה שאברי ואופיר פשוט מוכשרים בטירוף וכל שירות שהם מציעים ללקוח הוא הכי מקצועי שיש, הם נותנים יחס אישי ומותאם בול למה שאני צריכה כל פעם מחדש! יש להם את הסבלנות, את הרגישות ואת היכולת ללוות אותי בתהליך ולהביא את התוצר שהכי מתאים לי. הם הופכים את הרעיון שלי מחלום קטן למציאות! לא הייתי בוחרת באף אחד אחר במקומם🫶"
-            },
-            {
-                name: "ליאב ויצמן",
-                text: "קודם כל ממש תודה על הלוגו שמלווה אותי כמעט שנה 🥰\n" +
-                    "אני מרוצה ממנו בטירוף וזה בול התוספת הקטנה שהייתי צריכה לעסק שלי כדי שייראה יותר רציני, מקצועי ואסתטי \n" +
-                    "ותודה גם על היחס שנתת לי זה היה לגמריי פתוח לבחירה ועשינו גם קצת שינויים תוך כדי עד שהגענו לתוצר הסופי שהייתי סופר מרוצה ממנו 🫶🏻"
-            },
-            {
-                name: "נבו אזולאי",
-                text: "BM Studio- תותחים! \n" +
-                    "אנשים שיודעים לעשות את העבודה ונותנים 100% מעצמם ללקוח. הם בנו לי לוגו לעסק לפני כמה חודשים והרגשתי שזה בדיוק מה שמתאים לי מבחינת הקונספט, לא מצטער לרגע  שבחרתי בהם!"
-            },
-            {
-                name: "עידו מועלם",
-                text: "תודה לצוות BM Studio על ההירתמות מכל הלב במהלך מלחמת \"חרבות ברזל\" לליווי של עיצוב גרפי עבורנו, קהילת ההסברה IronBridge. תודה מיוחדת על קרייאטיב לתוך השעות הקטנות של הלילה ועזרה בכל מה שצריך על מנת לבצע הסברה איכותית"
-            },
-            {
-                name: "ערן ניר",
-                text: "המשרד עיצב עבורי כרזה בשיא המהירות והכישרון לשביעות רצוני המלאה תוך שירות ומענה מהיר ממליץ בחום"
-            },
-            {
-                name: "עמית מידן",
-                text: "בעבודה איתכם ממש הרגשתי שהדעה שלי הכי חשובה ושהכי חשוב שאני אהיה מרוצה, זה היה ממש משמעותי בשבילי כי זה פרויקט שממש קרוב לליבי אז כל דבר קטן הרגיש כמו משהו גדול וזה היה כל כך נעים להרגיש שיש הקשבה ואכפתיות ורצון אמיתי שזה יהיה מושלם❤️ תודה"
-            }
-        ];
-        reviews.forEach(review => {
-            document.getElementsByClassName("swiper-wrapper")[0].innerHTML +=
-                "<div class='swiper-slide'><h3 class='review-name'>" + review.name +
-                "</h3><div class='review-text-container'><p class='review-text'>" + review.text +
-                "</p></div></div>";
-        });
-
-        //Swiper
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-            slidesPerView: 'auto',
-            centeredSlides: true,
-            effect: 'cards',
-            simulateTouch: true,
-
-
-            // If we need pagination
-            pagination: {
-                el: '.swiper-pagination',
-            },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            autoplay: {
-                delay: 5000,
-            }
-            // // And if we need scrollbar
-            // scrollbar: {
-            //     el: '.swiper-scrollbar',
-            // },
-        });
     </script>
+    <script type="module" src="./main.js"></script>
 </body>
 
 </html>
