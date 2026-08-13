@@ -120,8 +120,8 @@ export const portfolio = {
             youtubeId: "ajFa4UNsTm0"
         },
         {
-            title: "נעה ניר - שיר לנועה",
-            youtubeId: "gzLiI4ZQeCI"
+            title: "דניאל ברזילאי - האור ואושרי",
+            youtubeId: "hK749tcuLTc"
         },
         {
             title: "חגו - אלך איתך",
@@ -130,6 +130,10 @@ export const portfolio = {
         {
             title: "נעה שאואט - מי כותב לי תתסריט",
             youtubeId: "FokyoOjJPaA"
+        },
+         {
+            title: "נעה ניר - שיר לנועה",
+            youtubeId: "gzLiI4ZQeCI"
         }
     ]
 };
